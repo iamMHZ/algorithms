@@ -1,4 +1,4 @@
-def fibonacci_number_dynamic_programming(up_to: int) -> int:
+def fibonacci_dynamic_programming(up_to: int) -> int:
     if up_to <= 1:
         return up_to
 
