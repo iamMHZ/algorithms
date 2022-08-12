@@ -10,3 +10,8 @@ class NaiveGcdTest(TestCase):
 
     def test_with_both_a_and_b_zero(self):
         self.fail()
+
+
+class EuclideanGcdTest(TestCase):
+    def test_gcd(self):
+        self.fail()
