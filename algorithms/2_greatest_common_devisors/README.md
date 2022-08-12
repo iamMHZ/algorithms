@@ -9,5 +9,28 @@
 + GCD finding algorithms must be efficient enough to run on large numbers.
 
 #### Naive Algorithm:
+
 ![Naive Algorithm](./docs/2.png)
+
 + It is Slow for large numbers and its running time is approximately `a+b`.
+
+#### Euclidean Algorithm
+
++ Lemma
+
+  ![Lemma](./docs/3.png)
++ Proof
+
+  ![Proof](./docs/4.png)
+
+By computing gdc of `b` and `a'` we do less computation because `a'` is smaller than `a`.
+
+![Algorithms](./docs/5.png)
+
++ Example
+
+![Example](./docs/6.png)
+
++ Runtime
+
+![Runtime](./docs/7.png)
