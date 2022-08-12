@@ -2,6 +2,7 @@
 
 Problem is obvious to every one I guess, but if you wanna know more
 checkout [this](https://en.wikipedia.org/wiki/Fibonacci_number) wikipedia page.
+
 ![problem definition](./docs/0.png)
 
 #### Recursive Solution
@@ -17,4 +18,5 @@ checkout [this](https://en.wikipedia.org/wiki/Fibonacci_number) wikipedia page.
 + Basically for computing `F(n)` you need to have last two elements(`F(n-1)` and `F(n-2)`).
   ![optimized approach](./docs/4.png)
 + This algorithm is way too much faster than the recursive approach as its running time is shown.
+
   ![running time of optimized](./docs/5.png)
