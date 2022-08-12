@@ -12,7 +12,7 @@ checkout [this](https://en.wikipedia.org/wiki/Fibonacci_number) wikipedia page.
 + Why the recursive approach is so slow? Because it recomputes sub-problems over and over again.
   ![why recursive is slow](./docs/2.png)
 
-#### Optimized Solution
+#### Dynamic Programming Solution
 
 + Instead of recomputing sub-problems again, store them somewhere and reach them anytime you want them.
 + Basically for computing `F(n)` you need to have last two elements(`F(n-1)` and `F(n-2)`).
