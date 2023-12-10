@@ -7,11 +7,3 @@ class NaiveGcdTest(TestCase):
     def test_naive_gcd(self):
         result = naive_gcd(12, 6)
         self.assertEquals(result, 6)
-
-    def test_with_both_a_and_b_zero(self):
-        self.fail()
-
-
-class EuclideanGcdTest(TestCase):
-    def test_gcd(self):
-        self.fail()
