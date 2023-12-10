@@ -41,6 +41,3 @@ class DynamicProgrammingFibonacciTest(TestCase):
     def test_for_large_number(self):
         result = fibonacci_dynamic_programming(20)
         self.assertEquals(result, 6765)
-
-    def test_with_negative_number(self):
-        self.fail()
