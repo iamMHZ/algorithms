@@ -5,6 +5,7 @@ __pycache__/
 **/_trial_temp/
 # C extensions
 *.so
+.idea
 
 # Distribution / packaging
 .Python
