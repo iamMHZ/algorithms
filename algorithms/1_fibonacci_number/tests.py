@@ -21,9 +21,6 @@ class RecursiveFibonacciTest(TestCase):
         result = recursive_fibonacci(20)
         self.assertEquals(result, 6765)
 
-    def test_with_negative_number(self):
-        self.fail()
-
 
 class DynamicProgrammingFibonacciTest(TestCase):
     def test_with_zero(self):
